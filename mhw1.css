@@ -1,0 +1,246 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#header-container{
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width:100vw ;
+    height: 5vw;
+}
+
+#flex-header-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.flex-header-span {
+    display: none;
+}
+
+.flex-logo-item {
+    height: 85px;
+    width: 151px;
+    vertical-align: middle; 
+}
+
+.flex-header-item {
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 1vw;
+    text-decoration: none;
+}
+
+.flex-button{
+    height: 55px;
+    width: 142px;
+    vertical-align: middle;
+}
+
+.flex-nav{
+    height: 55px;
+    width: 110px;
+    vertical-align: middle;
+}
+
+.img {
+    margin-left: 0.3%;
+    width: 98.8%;
+    align-items: center;
+    margin-top: 0%;
+    float: left;
+    cursor: pointer;
+    transition: opacity 200ms;
+    z-index: -1;
+    position: absolute;
+    height: 91.2%;
+}
+
+.img-container:hover .img:not(:hover) {
+    opacity:0.3;
+}
+
+.color-black {
+    color:black;
+}
+
+.red-text {
+    color: red;
+}
+
+.color-white {
+    color: white;
+}
+
+.intestazione-articolo {
+    font-weight: bold;
+    font-size: 4.5vw;
+    text-align: center;
+    margin-top: 30%;
+    margin-left: -15%;
+}
+
+.secondo-paragrafo {
+    font-weight: bold;
+    font-size: 4.5vw;
+    text-align: center;
+    margin-top: 30%;
+    margin-left:-30.8%;
+    color:white;
+}
+
+.preview-container:hover .preview:not(:hover) {
+    opacity: 0.3;
+}
+
+.img1 {
+    height: 200px;
+    width: 370px;
+    margin-top: 33.1%;
+    margin-left: 8%;
+    float: left;
+    cursor: pointer;
+    transition: opacity 200ms;
+    z-index: -1;
+    position: absolute;
+}
+
+.img2  {
+    height: 200px;
+    width: 370px;
+    margin-top: 33.1%;
+    margin-left: 30%;
+    float: left;
+    cursor: pointer;
+    transition: opacity 200ms;
+    z-index: -1;
+    position: absolute;
+}
+
+.img3 {
+    height: 200px;
+    width: 370px;
+    margin-top: 33.1%;
+    margin-left: 52%;
+    float: left;
+    cursor: pointer;
+    transition: opacity 200ms;
+    z-index: -1;
+    position: absolute;
+}
+
+.intestazione-articolo1 {
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 82%;
+    margin-left: 5%;
+    color: white;
+}
+
+
+.secondo-paragrafo1 {
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 29.5%;
+    margin-left:-30%;
+    color:white;
+}
+
+.intestazione-articolo2 {
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 83%;
+    margin-left: 7.6vw;
+    margin-right: -2vw;
+    color: white;
+}
+
+
+.secondo-paragrafo2 {
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 35%;
+    margin-left: 0.5vw;
+    color:white;
+    margin-right: 1vw;
+}
+
+.intestazione-articolo3 {
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 82%;
+    margin-right: -23vw;
+    color: white;
+}
+
+
+.secondo-paragrafo3 {
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 29.5%;
+    margin-right: 5.7vw;
+    color:white;
+    margin-left: 4.5vw;
+}
+
+footer {
+    margin-top: 190vw;
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+  }
+  
+  .img-footer {
+    height: 85px;
+    width: 130px;
+    margin-top: -5vw;
+    margin-left: 16%;
+  }
+
+  .sfondo-primo-piano {
+    width: 97.5%;
+    height: 120vw;
+    margin-top: 31.5vw;
+    margin-left: 1%;
+    position: absolute;
+    z-index: -1;
+    
+  }
+
+  .title-p-p {
+    font-size: 4vw;
+    margin-top: 32.5vw;
+    margin-left: 9%;
+    
+  }
+
+  .title-a-p {
+    font-size: 2vw;
+    margin-top: 0.9vw;
+    margin-left: 9.99%;
+    font-weight: bold;
+
+  }
+
+  .articolo-in-p-p {
+    height: 500px;
+    width: 750px;
+    margin-top: -2.5vw;
+    margin-left: 9vw;
+  }
